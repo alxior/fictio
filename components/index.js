@@ -1,0 +1,17 @@
+import CTA from "./CTA";
+import Empresa from "./Empresa";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import Servicios from "./Servicios";
+import Testimonios from "./Testimonios";
+
+export {
+  CTA,
+  Empresa,
+  Footer,
+  Hero,
+  Navbar,
+  Servicios,
+  Testimonios
+}
