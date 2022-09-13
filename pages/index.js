@@ -2,9 +2,9 @@ import Head from "next/head";
 import {
   Navbar,
   Hero,
-  Empresa,
-  Servicios,
-  Testimonios,
+  About,
+  Services,
+  Testimonies,
   CTA,
   Footer,
 } from "../components";
@@ -22,12 +22,12 @@ export default function Home() {
       </Head>
       <div>
         <Navbar />
-        {/* <Hero />
-        <Empresa />
-        <Servicios />
-        <Testimonios />
-        <CTA />
-        <Footer /> */}
+        <Hero />
+        {/* <Empresa /> */}
+        {/* <Servicios /> */}
+        {/* <Testimonios /> */}
+        {/* <CTA /> */}
+        {/* <Footer /> */}
       </div>
     </div>
   );
