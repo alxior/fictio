@@ -23,7 +23,7 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
-        {/* <Empresa /> */}
+        <About />
         {/* <Servicios /> */}
         {/* <Testimonios /> */}
         {/* <CTA /> */}

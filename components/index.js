@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Services from "./Services";
 import Testimonies from "./Testimonies";
 import Stat from "./Stat";
+import ServiceCard from './ServiceCard';
 
 export {
   CTA,
@@ -14,5 +15,7 @@ export {
   Hero,
   Navbar,
   Services,
-  Stat
+  Stat,
+  Testimonies,
+  ServiceCard
 }
