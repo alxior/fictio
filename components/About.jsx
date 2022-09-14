@@ -4,7 +4,7 @@ import services from "../public/illustrations/services.png";
 import star from "../public/icons/star.png";
 import idea from "../public/icons/idea.png";
 import security from "../public/icons/security.png";
-import ServiceCard from "./ServiceCard";
+import AboutCard from "./AboutCard";
 
 const Empresa = () => {
   return (
@@ -23,20 +23,20 @@ const Empresa = () => {
             <div className="row-span-3 flex items-center pr-12">
               <Image src={services} alt="services" className="object-contain" />
             </div>
-            <ServiceCard
+            <AboutCard
               imgSrc={star}
               imgAlt="star"
               mainText="Calidad."
               bodyText="Confía en los mejores profesionales del sector para ofrecer servicios óptimos."
             />
-            <ServiceCard
+            <AboutCard
               imgSrc={idea}
               imgAlt="idea"
               mainText="Innovación."
               bodyText="No existen dos planes iguales. Buscamos las
               mejores opciones para tí."
             />
-            <ServiceCard
+            <AboutCard
               imgSrc={security}
               imgAlt="security"
               mainText="Seguridad."

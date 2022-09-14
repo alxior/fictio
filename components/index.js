@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import Services from "./Services";
 import Testimonies from "./Testimonies";
 import Stat from "./Stat";
+import AboutCard from './AboutCard';
 import ServiceCard from './ServiceCard';
 
 export {
@@ -17,5 +18,6 @@ export {
   Services,
   Stat,
   Testimonies,
+  AboutCard,
   ServiceCard
 }
