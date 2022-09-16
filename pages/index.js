@@ -26,7 +26,7 @@ export default function Home() {
         <About />
         <Services />
         <Testimonies />
-        {/* <CTA /> */}
+        <CTA />
         {/* <Footer /> */}
       </div>
     </div>

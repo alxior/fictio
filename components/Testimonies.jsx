@@ -8,11 +8,11 @@ import TestimonyCard from "./TestimonyCard";
 const Testimonios = () => {
   return (
     <div className="container mx-auto mt-24">
-      <p className="text-center font-poppins text-[40px] font-semibold text-darkBlue">
-        Qué opinan nuestros{" "}
-        <span className="font-bold text-fictioRed">CLIENTES.</span>
-      </p>
-      <div className="flex flex-col mx-auto justify-center max-w-5xl mt-24 space-y-16">
+      <div className="flex flex-col mx-auto justify-center max-w-[1100px] mt-36 space-y-16">
+        <p className="text-center font-poppins text-[40px] font-semibold text-darkBlue">
+          Qué opinan nuestros{" "}
+          <span className="font-bold text-fictioRed">CLIENTES.</span>
+        </p>
         <TestimonyCard
           imgSrc={elena}
           imgAlt="elena"
