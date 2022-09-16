@@ -8,6 +8,7 @@ import Testimonies from "./Testimonies";
 import Stat from "./Stat";
 import AboutCard from './AboutCard';
 import ServiceCard from './ServiceCard';
+import TestimonyCard from './TestimonyCard';
 
 export {
   CTA,
@@ -19,5 +20,6 @@ export {
   Stat,
   Testimonies,
   AboutCard,
-  ServiceCard
+  ServiceCard,
+  TestimonyCard
 }

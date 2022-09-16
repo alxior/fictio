@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
       </div>
       {/* Stats */}
-      <div className="w-full flex justify-center bg-fictioYellow/25 h-[120px] mt-12">
+      <div className="w-full flex justify-center bg-lightOrange h-[120px] mt-12">
         <div className="flex flex-row w-full max-w-[1280px] justify-between">
           <Stat mainText="10K+" secondaryText="Usuarios" />
           <Stat mainText="2M+" secondaryText="Transacciones" />
