@@ -23,11 +23,11 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
-        <About />
+        {/* <About />
         <Services />
         <Testimonies />
         <CTA />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );

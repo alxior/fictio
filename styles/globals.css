@@ -14,7 +14,7 @@
 }
 
 .sidemenu {
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-name: slideIn;
   animation-iteration-count: 1;
   animation-timing-function: ease-out;
@@ -23,9 +23,11 @@
 @keyframes slideIn {
   0% {
     transform: translateY(30px);
+    opacity: 0.5;
   }
   100% {
     transform: translateY(0px);
+    opacity: 1;
   }
 }
 

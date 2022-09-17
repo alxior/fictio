@@ -47,19 +47,19 @@ const Navbar = () => {
         <div
           className={`${
             !toggled ? "hidden" : "flex"
-          }  absolute right-0 text-center bg-white shadow-2xl mt-4 py-12 px-20 rounded-lg sidemenu`}
+          }  absolute right-0 text-center bg-white shadow-2xl mt-4 py-6 px-20 rounded-lg sidemenu border border-fictioRed/25`}
         >
-          <ul className="list-none font-semibold flex-row space-y-12 text-darkGray text-[28px]">
-            <li className="cursor-pointer hover:text-fictioRed">
+          <ul className="list-none font-semibold flex-row text-darkGray text-[28px] divide-y">
+            <li className="py-6 cursor-pointer hover:text-fictioRed">
               <a href="#inicio">Inicio</a>
             </li>
-            <li className="cursor-pointer hover:text-fictioRed">
+            <li className="py-6 cursor-pointer hover:text-fictioRed">
               <a href="#empresa">Empresa</a>
             </li>
-            <li className="cursor-pointer hover:text-fictioRed">
+            <li className="py-6 cursor-pointer hover:text-fictioRed">
               <a href="#servicios">Servicios</a>
             </li>
-            <li className="cursor-pointer hover:text-fictioRed">
+            <li className="py-6 cursor-pointer hover:text-fictioRed">
               <a href="#clientes">Clientes</a>
             </li>
           </ul>
