@@ -8,11 +8,11 @@ const Navbar = () => {
   const [toggled, setToggled] = useState(false);
 
   return (
-    <div className="container mx-auto px-4 py-6" id="inicio">
+    <div className="container mx-auto px-4 py-6 select-none" id="inicio">
       <div className="flex flex-row justify-between font-poppins items-center">
         <div className="flex flex-row space-x-2 items-center">
           <Image src={logo} alt="Fictio" className="w-[40px] h-[40px]" />
-          <p className="hidden xxs:block font-black text-fictioRed text-[36px] ">
+          <p className="hidden xxs:block cursor-default font-black text-fictioRed text-[36px] ">
             FICTIO
           </p>
         </div>

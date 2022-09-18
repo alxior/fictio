@@ -8,7 +8,7 @@ import stripe from "../public/partners/stripe.png";
 
 const Hero = () => {
   return (
-    <div className="w-full overflow-hidden font-poppins mt-16">
+    <div className="w-full overflow-hidden font-poppins mt-16 select-none cursor-default">
       <div className="container mx-auto px-4">
         {/* GRID */}
         <div className="grid space-y-16 xl:space-y-0 lg:grid-cols-5 lg:grid-rows-2 xl:grid-rows-5">
