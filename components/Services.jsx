@@ -11,8 +11,8 @@ const Servicios = () => {
   return (
     <div>
       {/* Service Cards */}
-      <div className="container mx-auto mt-24">
-        <div className="flex flex-row justify-between">
+      <div className="container mx-auto px-4 mt-16">
+        <div className="flex flex-wrap justify-evenly">
           <ServiceCard
             title="Consultoría"
             text="Servicios de asesoramiento para todo sector tecnológico con los mejores especialistas."
@@ -40,7 +40,7 @@ const Servicios = () => {
         </div>
       </div>
       {/* IT Support */}
-      <div className="max-w-5xl mx-auto">
+      {/* <div className="max-w-5xl mx-auto">
         <div className="flex flex-row mt-24">
           <div className="w-3/4 flex flex-col text-center items-center justify-center font-poppins">
             <p className="text-[36px] font-semibold text-darkBlue">
@@ -64,7 +64,7 @@ const Servicios = () => {
             <Image src={it} alt={it} className="object-contain" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
