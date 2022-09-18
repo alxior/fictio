@@ -59,13 +59,15 @@ const Hero = () => {
         </div>
       </div>
       {/* Stats */}
-      {/* <div className="w-full flex justify-center bg-lightOrange h-[120px] mt-12">
-        <div className="flex flex-row w-full max-w-[1280px] justify-between">
-          <Stat mainText="10K+" secondaryText="Usuarios" />
-          <Stat mainText="2M+" secondaryText="Transacciones" />
-          <Stat mainText="150+" secondaryText="Socios" />
+      <div className="w-full bg-lightOrange py-2 mt-12">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col xl:flex-row justify-between divide-y xl:divide-none">
+            <Stat mainText="10K+" secondaryText="Usuarios" />
+            <Stat mainText="2M+" secondaryText="Transacciones" />
+            <Stat mainText="150+" secondaryText="Socios" />
+          </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
