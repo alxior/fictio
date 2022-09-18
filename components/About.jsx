@@ -8,43 +8,39 @@ import AboutCard from "./AboutCard";
 
 const Empresa = () => {
   return (
-    <div className="w-full overflow-hidden">
-      <div className="flex justify-center">
-        <div className="w-full max-w-[1280px] mt-24 justify-center flex">
-          <p className="font-poppins font-semibold text-[40px] text-darkBlue">
-            ¿Tienes proyectos? Tenemos{" "}
-            <span className="font-bold text-fictioRed">SOLUCIONES.</span>
-          </p>
-        </div>
+    <div className="container mx-auto px-4 cursor-default select-none">
+      <div className="mt-32 xl:mt-40 text-center">
+        <p className="font-poppins font-semibold text-[28px] xs:text-[34px] xl:text-[40px] text-darkBlue">
+          ¿Tienes proyectos? Tenemos{" "}
+          <span className="font-black text-fictioRed">SOLUCIONES.</span>
+        </p>
       </div>
-      <div className="flex justify-center mt-24">
-        <div className="w-full max-w-[1280px] flex justify-center">
-          <div className="grid grid-cols-2 grid-rows-3 grid-flow-col gap-y-14">
-            <div className="row-span-3 flex items-center pr-12">
-              <Image src={services} alt="services" className="object-contain" />
-            </div>
-            <AboutCard
-              imgSrc={star}
-              imgAlt="star"
-              mainText="Calidad."
-              bodyText="Confía en los mejores profesionales del sector para ofrecer servicios óptimos."
-            />
-            <AboutCard
-              imgSrc={idea}
-              imgAlt="idea"
-              mainText="Innovación."
-              bodyText="No existen dos planes iguales. Buscamos las
+      <div className="grid grid-cols-1 xl:grid-cols-2 xl:grid-rows-3 gap-y-14 md:gap-y-16 xl:pt-12 mt-24">
+        <Image
+          src={services}
+          alt="services"
+          className="row-span-3 place-self-center pb-12 sm:pb-16"
+        />
+        <AboutCard
+          imgSrc={star}
+          imgAlt="star"
+          mainText="Calidad."
+          bodyText="Confía en los mejores profesionales del sector para ofrecer servicios óptimos."
+        />
+        <AboutCard
+          imgSrc={idea}
+          imgAlt="idea"
+          mainText="Innovación."
+          bodyText="No existen dos planes iguales. Buscamos las
               mejores opciones para tí."
-            />
-            <AboutCard
-              imgSrc={security}
-              imgAlt="security"
-              mainText="Seguridad."
-              bodyText="Protección de principio a fin para tus datos e
+        />
+        <AboutCard
+          imgSrc={security}
+          imgAlt="security"
+          mainText="Seguridad."
+          bodyText="Protección de principio a fin para tus datos e
               ideas, con garantías."
-            />
-          </div>
-        </div>
+        />
       </div>
     </div>
   );
