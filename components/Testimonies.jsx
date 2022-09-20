@@ -7,8 +7,8 @@ import TestimonyCard from "./TestimonyCard";
 
 const Testimonios = () => {
   return (
-    <div className="container mx-auto mt-44 px-4">
-      <div className="flex flex-col space-y-16">
+    <div id="clients" className="container mx-auto mt-44 px-4">
+      <div className="flex flex-col space-y-16 cursor-default text-none">
         <p className="text-center font-poppins text-[24px] xs:text-[30px] md:text-[35px] lg:text-[40px] font-semibold text-darkBlue lg:pb-8">
           Qué opinan nuestros{" "}
           <span className="text-[28px] xs:text-[36px] lg:text-[40px] font-bold text-fictioRed">CLIENTES.</span>

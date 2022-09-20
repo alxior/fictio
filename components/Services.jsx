@@ -9,7 +9,7 @@ import Image from "next/future/image";
 
 const Servicios = () => {
   return (
-    <div>
+    <div id="services">
       {/* Service Cards */}
       <div className="container mx-auto mt-16 cursor-default select-none px-4">
         <div className="flex flex-wrap justify-evenly">
@@ -42,7 +42,7 @@ const Servicios = () => {
       {/* IT Support */}
       <div className="container mx-auto mt-32 lg:mt-20 max-w-[1050px] px-4">
         <div className="grid grid-cols-1 font-poppins lg:grid-cols-6 lg:grid-rows-6">
-          <div className="text-center lg:col-span-4 lg:row-span-4 lg:mx-auto lg:place-self-end">
+          <div className="text-center lg:col-span-4 lg:row-span-4 lg:mx-auto lg:place-self-end cursor-default text-none">
             <p className="text-[24px] font-semibold text-darkBlue xs:text-[30px] md:text-[35px]">
               Soporte de 24 horas, todos los días, a
             </p>

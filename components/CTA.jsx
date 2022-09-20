@@ -5,8 +5,8 @@ import arrow from "../public/icons/arrow.png";
 
 const CTA = () => {
   return (
-    <div className="container mx-auto mt-48 px-4">
-      <div className="flex flex-col lg:flex-row items-center justify-between text-center lg:text-left space-y-8 lg:space-y-0">
+    <div className="container mx-auto mt-32 px-4">
+      <div className="flex flex-col lg:flex-row items-center justify-between text-center lg:text-left space-y-8 lg:space-y-0 cursor-default text-none">
         <div className="font-poppins xl:pt-24">
           <p className="text-[30px] sm:text-[34px] lg:text-[40px] font-bold text-fictioRed">
             HAGÁMOSLO JUNTOS.

@@ -8,7 +8,7 @@ import AboutCard from "./AboutCard";
 
 const Empresa = () => {
   return (
-    <div className="container mx-auto px-4 cursor-default select-none">
+    <div id="about" className="container mx-auto px-4 cursor-default select-none">
       <div className="mt-32 xl:mt-40 text-center">
         <p className="font-poppins font-semibold text-[28px] xs:text-[34px] xl:text-[40px] text-darkBlue">
           ¿Tienes proyectos? Tenemos{" "}

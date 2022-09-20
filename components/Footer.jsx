@@ -8,7 +8,7 @@ import twitter from "../public/socials/twitter.png";
 
 const Footer = () => {
   return (
-    <div className="mt-24 bg-footerBg pb-8 font-poppins">
+    <div className="text-none mt-24 cursor-default bg-footerBg pb-8 font-poppins">
       <div className="container mx-auto px-4">
         <div className="grid gap-8 pt-16 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:grid-rows-2">
           <div className="pb-4 xs:col-span-2 md:col-span-3 lg:col-span-2 lg:pb-0">
@@ -22,44 +22,28 @@ const Footer = () => {
           </div>
           <div className="flex flex-col space-y-2 text-[20px]">
             <p className="text-white">Links</p>
-            <a href="" className="text-footerGray">
-              Contenido
-            </a>
-            <a href="" className="text-footerGray">
-              Explorar
-            </a>
-            <a href="" className="text-footerGray">
+            <a className="cursor-pointer text-footerGray">Contenido</a>
+            <a className="cursor-pointer text-footerGray">Explorar</a>
+            <a className="cursor-pointer text-footerGray">
               Términos y Servicios
             </a>
           </div>
           <div className=" flex flex-col space-y-2 text-[20px]">
             <p className="text-white">Comunidad</p>
-            <a href="" className="text-footerGray">
-              Centro de Ayuda
-            </a>
-            <a href="" className="text-footerGray">
-              Blog
-            </a>
-            <a href="" className="text-footerGray">
-              Noticias
-            </a>
-            <a href="" className="text-footerGray">
-              Contacto
-            </a>
+            <a className="cursor-pointer text-footerGray">Centro de Ayuda</a>
+            <a className="cursor-pointer text-footerGray">Blog</a>
+            <a className="cursor-pointer text-footerGray">Noticias</a>
+            <a className="cursor-pointer text-footerGray">Contacto</a>
           </div>
           <div className=" flex flex-col space-y-2 text-[20px]">
             <p className="text-white">Socios</p>
-            <a href="" className="text-footerGray">
-              Nuestros Socios
-            </a>
-            <a href="" className="text-footerGray">
-              Hazte Socio
-            </a>
+            <a className="cursor-pointer text-footerGray">Nuestros Socios</a>
+            <a className="cursor-pointer text-footerGray">Hazte Socio</a>
           </div>
         </div>
 
         <div className="mt-12 flex flex-col space-y-8">
-          <div className="flex flex-row space-x-8 md:self-end md:w-fit">
+          <div className="flex flex-row space-x-8 md:w-fit md:self-end">
             <a href="https://www.instagram.com/">
               <Image
                 src={instagram}
