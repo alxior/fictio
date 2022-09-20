@@ -55,7 +55,7 @@ const Servicios = () => {
             alt={it}
             className="place-self-center p-8 xs:p-20 lg:col-span-2 lg:row-span-6 lg:mt-20 lg:max-w-[300px] lg:p-4"
           />
-          <div className="mx-auto mt-6 flex cursor-pointer flex-row items-center justify-between space-x-4 rounded-lg bg-fictioBlue px-4 py-2 xs:py-4 shadow-fictio xs:w-max lg:col-span-4 lg:row-span-2 lg:place-self-start ">
+          <div className="mx-auto mt-6 flex cursor-pointer flex-row items-center justify-between space-x-4 rounded-lg bg-fictioBlue px-4 py-2 xs:py-4 shadow-fictio xs:w-max lg:col-span-4 lg:row-span-2 lg:place-self-start hover:bg-fictioBlue/90">
             <p className="text-center text-[18px] font-semibold text-white xs:text-[20px] md:text-[24px]">
               ¿Tienes dudas? Contáctanos.
             </p>
